@@ -188,13 +188,17 @@ public class BoatController : MonoBehaviour
     public void takeDamage()
     {
         hitPoints -= 1;
+        print("boat " + name + " has " + hitPoints + " hit points remaining.");
         if (hitPoints <= 0)
         {
+           
             TurnManager.Instance.deadBoats.Add(this);
             tabOrders.setDestroyed();
         }
         else if (hitPoints == 1)
         {
+                    print("boat " + name + " has " + hitPoints + " hit points remaining.");
+
             tabOrders.setDamaged();
         }
     }

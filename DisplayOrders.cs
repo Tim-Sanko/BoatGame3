@@ -82,6 +82,7 @@ public class DisplayOrders : MonoBehaviour
 
     public void setDamaged()
     {
+		print("boat " + boat.name + " has been hit :(");
         boat.boatImage.color = new Color32(255,75,75,230);
         tabImage.color = new Color32(255,75,75,230);
     }
