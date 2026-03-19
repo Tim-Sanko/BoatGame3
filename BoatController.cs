@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.InputSystem;
+using System.Collections;
+
 public class BoatController : MonoBehaviour
 {
     public bool isEvil;
@@ -240,4 +242,47 @@ public class BoatController : MonoBehaviour
         }   
         return -1;
     }
+
+    public void ExecuteCommands()
+{
+        StartCoroutine(ExecuteCommandsCoroutine());
+}
+   private IEnumerator ExecuteCommandsCoroutine()
+{
+    for (int i = 0; i < commandQueue.Count; i++)
+    {
+        BoatCommand cmd = commandQueue[i];
+
+        switch (cmd.commandType)
+        {
+            case BoatCommandType.Forward:
+                Forward();
+                break;
+            case BoatCommandType.Backward:
+                Backward();
+                break;
+            case BoatCommandType.RotateLeft:
+                RotateLeft();
+                break;
+            case BoatCommandType.RotateRight:
+                RotateRight();
+                break;
+            case BoatCommandType.Nothing:
+                break;
+        }
+
+        // Fire command at same step
+        if (i < fireQueue.Count)
+        {
+            FireCommand fire = fireQueue[i];
+            Debug.Log("Firing: " + fire.fireCommandType); 
+        }
+
+        yield return new WaitForSeconds(0.5f); // delay between actions
+    }
+
+    commandQueue.Clear();
+    fireQueue.Clear();
+}
+    
 }
