@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class BoatSelection : MonoBehaviour
 {
+    
     public static BoatSelection Instance;
     private BoatActions actions;
     public static BoatController SelectedBoat;
@@ -177,6 +178,7 @@ public class BoatSelection : MonoBehaviour
             SelectBoat(TurnManager.Instance.goodBoats[0]);
         }
     }
+
 
     private void OnEnable()
     {
