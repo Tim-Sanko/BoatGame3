@@ -103,10 +103,6 @@ public class TurnManager : MonoBehaviour
             EnemyPathfinding.collectEnemyOrders(evilBoats);
         }
         ordersOpen = false;
-        if (gameMode == gameType.Singleplayer)
-        {
-            EnemyPathfinding.collectEnemyOrders(evilBoats);
-        }
         for (int i = 1; i <= 12; i++)
         {
             foreach (BoatController boat in boats)
