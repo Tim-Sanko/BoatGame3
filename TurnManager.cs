@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.SceneManagement;
 
 public enum gameType
 {
@@ -247,6 +248,7 @@ public class TurnManager : MonoBehaviour
             boat.destroyBoat();
         }
         deadBoats.Clear();
+        CheckWinCondition();
         yield return new WaitForSeconds(pauseTime*4);
         ordersOpen = true;
         //print("Turn over");
@@ -256,5 +258,31 @@ public class TurnManager : MonoBehaviour
             boat.AddFireCommand(new FireCommand(FireCommandType.Nothing));
         }
     }
-
+    private void CheckWinCondition()
+    {
+        if (goodBoats.Count == 0)
+        {
+            SceneManager.LoadScene("WinEvilBoat");
+        }
+        else if (evilBoats.Count == 0)
+        {
+            SceneManager.LoadScene("WinGoodBoat");
+        }
+    }
+    public void killAllGood()
+    {
+        foreach (BoatController boat in goodBoats)
+        {
+            boat.takeDamage();
+            boat.takeDamage();
+        }
+    }
+    public void killAllEvil()
+    {
+        foreach (BoatController boat in evilBoats)
+        {
+            boat.takeDamage();
+            boat.takeDamage();
+        }
+    }
 }
