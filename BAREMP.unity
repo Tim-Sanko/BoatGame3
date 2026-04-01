@@ -311,7 +311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -460, y: 220}
+  m_AnchoredPosition: {x: -420, y: 220}
   m_SizeDelta: {x: 15, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72874580
@@ -688,7 +688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 223, y: -225}
+  m_AnchoredPosition: {x: 223, y: -205}
   m_SizeDelta: {x: 50, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &216866188
@@ -1205,7 +1205,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: 220}
+  m_AnchoredPosition: {x: 360, y: 220}
   m_SizeDelta: {x: 15, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &278306217
@@ -1846,7 +1846,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: -250}
+  m_AnchoredPosition: {x: 300, y: -230}
   m_SizeDelta: {x: 50, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606116122
@@ -1994,7 +1994,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: -215}
+  m_AnchoredPosition: {x: 300, y: -195}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606668785
@@ -2803,7 +2803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 375, y: -140}
+  m_AnchoredPosition: {x: 375, y: -120}
   m_SizeDelta: {x: 50, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &744191180
@@ -2951,7 +2951,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 360, y: -185}
+  m_AnchoredPosition: {x: 360, y: -165}
   m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &747815179
@@ -3768,7 +3768,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 340, y: 220}
+  m_AnchoredPosition: {x: 300, y: 220}
   m_SizeDelta: {x: 15, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965438911
@@ -4197,7 +4197,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 372, y: -225}
+  m_AnchoredPosition: {x: 372, y: -205}
   m_SizeDelta: {x: 50, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1012700520
@@ -4650,26 +4650,6 @@ MonoBehaviour:
     m_ActionName: 'Movement/NoAction[/Keyboard/space]'
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: ed7e6204-99f6-4c1a-b2fb-e15a533fcfe9
-    m_ActionName: 'Combat/FireFrontLeft[/Keyboard/q]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: df82d054-6ef4-4786-bbbf-27fc04cbe853
-    m_ActionName: 'Combat/FireFrontRight[/Keyboard/e]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 46065380-7d38-4095-a635-59acb787a137
-    m_ActionName: 'Combat/FireBackLeft[/Keyboard/z]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: b60c51ae-abf0-4095-8b4b-724999ef536e
-    m_ActionName: 'Combat/FireBackRight[/Keyboard/c]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 9e04a9fa-33a6-4b14-9308-4f7c79a510c4
-    m_ActionName: 'Combat/NoFire[/Keyboard/x]'
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: 20579396-fc2b-4e99-9699-690930eeac48
     m_ActionName: 'Movement/ShootFR[/Keyboard/e]'
   - m_PersistentCalls:
@@ -4795,7 +4775,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: -180}
+  m_AnchoredPosition: {x: 300, y: -160}
   m_SizeDelta: {x: 50, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1100187292
@@ -5541,7 +5521,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: 220}
+  m_AnchoredPosition: {x: -360, y: 220}
   m_SizeDelta: {x: 15, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1205252681
@@ -5809,26 +5789,6 @@ MonoBehaviour:
     m_ActionName: 'Movement/NoAction[/Keyboard/space]'
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: ed7e6204-99f6-4c1a-b2fb-e15a533fcfe9
-    m_ActionName: 'Combat/FireFrontLeft[/Keyboard/q]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: df82d054-6ef4-4786-bbbf-27fc04cbe853
-    m_ActionName: 'Combat/FireFrontRight[/Keyboard/e]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 46065380-7d38-4095-a635-59acb787a137
-    m_ActionName: 'Combat/FireBackLeft[/Keyboard/z]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: b60c51ae-abf0-4095-8b4b-724999ef536e
-    m_ActionName: 'Combat/FireBackRight[/Keyboard/c]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 9e04a9fa-33a6-4b14-9308-4f7c79a510c4
-    m_ActionName: 'Combat/NoFire[/Keyboard/x]'
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: 20579396-fc2b-4e99-9699-690930eeac48
     m_ActionName: 'Movement/ShootFR[/Keyboard/e]'
   - m_PersistentCalls:
@@ -5994,7 +5954,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 225, y: -140}
+  m_AnchoredPosition: {x: 225, y: -120}
   m_SizeDelta: {x: 50, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1250985461
@@ -6155,7 +6115,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -340, y: 220}
+  m_AnchoredPosition: {x: -300, y: 220}
   m_SizeDelta: {x: 15, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272747329
@@ -6663,7 +6623,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 460, y: 220}
+  m_AnchoredPosition: {x: 420, y: 220}
   m_SizeDelta: {x: 15, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408558715
@@ -7167,7 +7127,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 240, y: -185}
+  m_AnchoredPosition: {x: 240, y: -165}
   m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1723705290
@@ -7330,6 +7290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 240af1c9762f89348a6b395d056d76f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TurnManager
+  tilemap: {fileID: 0}
   gameMode: 1
   pauseTime: 0.1
   ordersOpen: 1
@@ -7338,6 +7299,7 @@ MonoBehaviour:
   evilBoats: []
   deadBoats: []
   deadBoatPrefab: {fileID: 720584296}
+  islandHex: {fileID: 0}
 --- !u!114 &1899488467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13921,7 +13883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: -140}
+  m_AnchoredPosition: {x: 300, y: -120}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2141866023
